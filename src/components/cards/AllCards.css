@@ -1,0 +1,64 @@
+#mainDisplayDiv {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainDisplayDiv section{
+    background: green;
+    width: 450px;
+    height: 500px;
+}
+#mainDisplayDiv section article{
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mainDisplayDiv button{
+    height: 70px;
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.displayCardsDiv{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.displayCardsDiv .individualCard{
+    height: 100px;
+    width: 70px;
+}
+
+.individualCard .redCard, .individualCard .blackCard{
+    padding: 10px;
+    border-radius: 5px;
+    height: inherit;
+    background: white;
+    cursor: pointer;
+}
+.individualCard .redCard{
+    border: 3px solid red;
+    color: red;
+}
+.individualCard .blackCard{
+    border: 3px solid black;
+    color: black;
+}
+.individualCard .figureOfCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
